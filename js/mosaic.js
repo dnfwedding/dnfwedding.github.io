@@ -30,10 +30,8 @@ function randomPhoto() {
 
 function init(colNum, rowNum) {
     let pan = document.getElementById('photo-mosaic');
-    let column = colNum;
-    let row = rowNum;
-    for (let i = 0; i < column; i++) {
-        for (let j = 0; j < row; j++) {
+    for (let i = 0; i < colNum; i++) {
+        for (let j = 0; j < rowNum; j++) {
             pan.innerHTML = pan.innerHTML + template(i, j);
         }
     }
