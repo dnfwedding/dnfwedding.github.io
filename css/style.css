@@ -1,0 +1,54 @@
+body {
+    background-color: #68cdff;
+    margin: 0;
+    padding: 0;
+}
+
+.text-main {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-big {
+    font-size: 3em;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0px;
+}
+
+.text-bigger {
+    font-size: 2em;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.box {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    top: 200px;
+}
+
+.content-panel {
+    height: 600px;
+    margin: 0px 0px;
+}
+
+.mosaic {
+    position: absolute;
+    right: 0;
+    height: 600px;
+    width: 400px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(5, 120px);
+}
