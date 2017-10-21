@@ -40,9 +40,9 @@ function init(colNum, rowNum) {
 }
 
 function permutation() {
-    while (true) {
-        colNum = Math.floor(Math.random() * 5);
-        rowNum = Math.floor(Math.random() * 5);
-        let element = document.getElementById('m-el-' + colNum + '-'+ rowNum);
-    }
+    setInterval(() => {
+        let colNum = Math.floor(Math.random() * 5);
+        let rowNum = Math.floor(Math.random() * 5);
+        document.getElementById('m-el-' + colNum + '-'+ rowNum).src = randomPhoto();
+    }, 2000);
 }
