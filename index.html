@@ -4,28 +4,81 @@
         <meta charset="utf-8"/>
         <title>D &#10084; F</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"></link>
-        <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
     </head>
     <body>
         <div class='content-panel' id='welcome-panel'>
-            <div class='mosaic' id='photo-mosaic'></div>
-            <div class='box'>
-                <p class='text-big text-main'>Приглашаем на регистрацию нашего брака!</p>
-                <p class='text-bigger text-main underline'>7-го ноября</p>
+            <div class='box' id='welcome-info-box'>
+                <p class='text-big text-main'>Welcome to our marriage registration!</p>
+                <p class='text-bigger text-main underline'>November, 7th</p>
             </div>
-            <img src="img/Pioneers_pin.png" id='pin'/>
+            <div class='container' id='box-1'>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_00.jpg'></img>
+                    </div>
+                </div>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_01.jpg'></img>
+                    </div>
+                </div>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_02.jpg'></img>
+                    </div>
+                </div>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_03.jpg'></img>
+                    </div>
+                </div>
+            </div>
+            <div class='container' id='box-2'>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_04.jpg'></img>
+                    </div>
+                </div>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_05.jpg'></img>
+                    </div>
+                </div>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_06.jpg'></img>
+                    </div>
+                </div>
+            </div>
+            <div class='container' id='box-3'>
+                <div class='wrap'></div>
+                <div class='wrap'>
+                    <div class='crop'>
+                        <img src='photos/IMG_07.jpg'></img>
+                    </div>
+                </div>
+            </div>
+            <p id='where-text' class='handwritings'>Where?</p>
+            <svg width="300" height="200" viewBox="0 0 300 200" id='where-path'>
+                <defs>
+                    <marker id="head" markerWidth="10" markerHeight="8" refX="9.5" refY="5.1" orient="90" markerUnits="strokeWidth">
+                        <polyline points="1 1, 10 5, 1 8" fill="#ffffff"/>
+                    </marker>
+                </defs>
+                <path stroke-dasharray="5, 5" d="M20,20 C20,220 300,10 280,170" marker-end='url(#head)' id='arrow-path'/>
+            </svg>
         </div>
         <div class='content-panel' id='map-panel'>
         </div>
         <div class='content-panel' id='afterparty-panel'>
-            <div class='box'>
-                <p class='text-bigger text-main'>А потом мы пойдём есть вкусное мясо</p>
-                <p class='text-bigger text-main'>в Smoke BBQ!</p>
+            <div class='box' id='afterparty-box'>
+                <p class='text-bigger text-main'>And then we'll go have some amazing meet</p>
+                <p class='text-bigger text-main'>at Smoke BBQ!</p>
             </div>
         </div>
-        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        <script src="https://maps.google.com/maps/api/js"></script>
         <script src="js/map.js"></script>
-        <script src="js/mosaic.js"></script>
     </body>
 </html>
