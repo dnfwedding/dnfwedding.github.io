@@ -1,5 +1,4 @@
 body {
-    background-color: #68cdff;
     margin: 0;
     padding: 0;
 }
@@ -121,12 +120,17 @@ body {
     z-index: 50;
 }
 
+#welcome-panel {
+    background-color: #68cdff;
+}
+
 #welcome-info-box {
+    z-index: 100;
     top: 160px;
 }
 
 #afterparty-box {
-    top: 250px;
+    top: 210px;
 }
 
 #box-1 {
@@ -142,6 +146,16 @@ body {
 #box-3 {
     right: 155px;
     top: 215px;
+}
+
+#box-4 {
+    right: 55px;
+    top: 1700px;
+}
+
+#box-5 {
+    right: 130px;
+    top: 1552px;
 }
 
 #pin {
@@ -172,7 +186,8 @@ path {
 }
 
 #where-path {
-    position: relative;
-    top: 235px;
+    z-index: 100;
+    position: absolute;
+    top: 420px;
     left: 150px;
 }
