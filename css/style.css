@@ -1,5 +1,5 @@
 body {
-    background-color: #ff4662;
+    background-color: #68cdff;
     margin: 0;
     padding: 0;
 }
@@ -120,8 +120,46 @@ body {
     z-index: 50;
 }
 
+.wave{
+    background: linear-gradient(to right, #68cdff, #68cdff);
+    height: 50px;
+    position: relative;
+}
+.wave::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, #ff4662 13px);
+}
+
 #welcome-panel {
     background-color: #68cdff;
+}
+
+#map-panel {
+    background-color: #68cdff;
+    padding: 0px;
+}
+
+#afterparty-panel {
+    background-color: #ff4662;
+    background-image: url('../img/cow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#map {
+    position: relative;
+    margin: 0 auto;
+    width:95% !important;
+    height: 95% !important;
+    padding: 7px !important;
+    border: 2px dashed #ffffff;
 }
 
 #welcome-info-box {
@@ -152,10 +190,6 @@ body {
     display: block;
     margin: auto;
     height: 100px;
-}
-
-#afterparty-panel {
-    background-color: #ff4662;
 }
 
 #where-text {
