@@ -94,6 +94,7 @@ body {
     background-image: url('../photos/background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -106,6 +107,8 @@ body {
 #afterparty-panel {
     background-color: #ff4662;
     background-image: url('../img/cow.png');
+    background-attachment: fixed;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
 }
