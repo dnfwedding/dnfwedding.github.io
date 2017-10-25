@@ -56,12 +56,12 @@ body {
     font-weight: 400;
 }
 
-.wave{
+.wave-bottom{
     background: linear-gradient(to right, #68cdff, #68cdff);
     height: 30px;
     position: relative;
 }
-.wave::before{
+.wave-bottom::before{
     content: "";
     position: absolute;
     left: 0;
@@ -71,6 +71,22 @@ body {
     height: 10px;
     background-size: 20px 20px;
     background-image: radial-gradient(circle at 10px -5px, transparent 12px, #ff4662 13px);
+}
+
+.wave-top{
+    height: 30px;
+    position: relative;
+}
+.wave-top::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, #68cdff 13px);
 }
 
 #welcome-panel {
