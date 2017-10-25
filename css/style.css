@@ -186,12 +186,6 @@ body {
     top: 208px;
 }
 
-#pin {
-    display: block;
-    margin: auto;
-    height: 100px;
-}
-
 #where-text {
     position: absolute;
     z-index: 100;
