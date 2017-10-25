@@ -1,4 +1,5 @@
 body {
+    background-color: #ff4662;
     margin: 0;
     padding: 0;
 }
@@ -109,7 +110,6 @@ body {
     -ms-transform: skew(-20deg, -20deg) rotate(-45deg);
     -o-transform: skew(-20deg, -20deg) rotate(-45deg);
     transform: skew(-20deg, -20deg) rotate(-45deg);
-    opacity: 0.90;
     -webkit-transition: opacity 300ms ease-in-out;
     -moz-transition: opacity 300ms ease-in-out;
     transition: opacity 300ms ease-in-out;
@@ -139,23 +139,13 @@ body {
 }
 
 #box-2 {
-    right: 190px;
-    top: 355px;
+    right: 200px;
+    top: 354px;
 }
 
 #box-3 {
-    right: 155px;
-    top: 215px;
-}
-
-#box-4 {
-    right: 55px;
-    top: 1700px;
-}
-
-#box-5 {
     right: 130px;
-    top: 1552px;
+    top: 208px;
 }
 
 #pin {
